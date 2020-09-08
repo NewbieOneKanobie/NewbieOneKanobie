@@ -1,0 +1,4 @@
+#if UNITY_EDITOR
+        EditorUtility.SetDirty(this);
+        AssetDatabase.SaveAssets();
+#endif
